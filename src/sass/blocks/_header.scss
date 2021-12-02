@@ -19,6 +19,12 @@
             font-size: 18px;
         }
     }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-end;
+        
+    }
     &__phone {
         display: block;
         font-size: 18px;
@@ -28,10 +34,5 @@
         &:hover {
             color: #ffffff;
         }
-    }
-    &__contacts {
-        display: flex;
-        flex-direction: column;
-        align-items:flex-end;
     }
 }
