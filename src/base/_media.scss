@@ -1,0 +1,162 @@
+@media (max-width: 1200px) {
+    .promo {
+        &__wrapper {
+            align-items:center;
+            
+        }
+    }
+
+}
+									
+@media (max-width: 991px) {
+   
+    .header{
+        padding: 0 20px;
+    }
+    .title {
+        text-align: center;
+    }
+    .consultation {
+        &__descr{
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+        
+    }
+    .carousel {
+        &__inner {
+            img {
+                width: 50%;
+                margin: 0 auto;
+            }
+        }
+        
+
+    }
+    .catalog {
+        &__contant {
+            justify-content: space-around;
+        }
+    }
+    .reviews {
+        &__img {
+            margin-left: 60px;       }
+    }
+
+}
+					
+@media (max-width: 767px) {
+    .promo {
+        .promo__header {
+            margin-top: 30px;
+
+        }
+    }
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        &__official {
+            display: none;
+        }
+        
+
+    }
+    .advantages{
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 575px;
+            img {
+                width: 50%;
+                margin: 0 auto;
+            }
+        }
+        
+
+    }
+    .catalog {
+        &__tab {
+            width: 150px; 
+            // height: 26px;
+            font-size: 12px;
+            // line-height: 25px;
+        }
+    }
+    .reviews {
+        &__contant {
+            flex-direction: column;
+        }
+        &__img {
+            margin: 0 auto;       }
+        &__name {
+            text-align: center;
+        }
+        &__descr {
+             text-align: center;
+        }
+    }
+    
+
+   
+}
+ 	
+@media (max-width: 575px) {
+    .carousel {
+        &__inner {
+            width: 400px;
+            margin: 0 auto;
+            img {
+                width: 40%;
+                margin: 0 auto;
+            }
+        }
+        
+
+    }
+    .catalog {
+        &__tab {
+            width: 125px; 
+            height: 26px;
+            font-size: 8px;
+            line-height: 25px;
+        }
+    }
+    .modal {
+        &__close {
+            padding: 0 5px;
+        }
+    }
+    // .catalog {
+    //     &-item {
+    //         width: 40%;
+    //         margin-right: 27px;
+    //         margin-left: 27px;
+    //         &__old-price {
+    //             font-size: 10px;
+    //         }
+    //         &__price {
+    //             font-size: 9px;
+    //         }
+    //     }
+       
+    // }
+    // .button {
+    //     &_mini {
+    //         width: 100px;
+    //         height: 30px;
+    //         font-size: 10px;
+    //     }
+    // }
+}
+
+
+
+
